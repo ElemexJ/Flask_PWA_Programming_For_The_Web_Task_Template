@@ -1,0 +1,10 @@
+-- database: ./data_source.db
+
+-- Use the ▷ button in the top right corner to run the entire file.
+
+-- SELECT * FROM "table-name";
+INSERT INTO UserInformation(UserID,Username,Password,Email,about,ProfilePicture,Age) VALUES (1,"bob,"End389Oe!","bobmobonthecob@gmail.com","Hey there! I just started browsing the Arcade Atlus","https://avatars.githubusercontent.com/u/123456789?v=4","15");
+INSERT INTO UserInformation(UserID,Username,Password,Email,about,ProfilePicture,Age) VALUES (2,"Ellie_exe","&ykbt:sdho&h3","ellie.narnia@gmail.com","Hi there! I'm Ellie.","https://medo64.gallerycdn.vsassets.io/extensions/medo64/render-crlf/1.7.1/1689315206970/Microsoft.VisualStudio.Services.Icons.Default",28);
+INSERT INTO UserInformation(UserID,Username,Password,Email,about,ProfilePicture,Age) VALUES (3,"Br3ach","oioihfweiof8sd986932ruejhbksdv>!","Breachofsecurity@hotmail.com","a's b's and c's","https://mccarter.gallerycdn.vsassets.io/extensions/mccarter/start-git-bash/1.2.1/1499505567572/Microsoft.VisualStudio.Services.Icons.Default",35);
+INSERT INTO UserInformation(UserID,Username,Password,Email,about,ProfilePicture,Age) VALUES (4,"Re1ry","aaa@aa8aaaa@aaa8aa@aaaaaa8@aa8aaaa@aa8aaa","imgonnacatchyou@gmail.com","I love computing (no)","https://yy0931.gallerycdn.vsassets.io/extensions/yy0931/vscode-sqlite3-editor/1.0.85/1690893830873/Microsoft.VisualStudio.Services.Icons.Default",20);
+
