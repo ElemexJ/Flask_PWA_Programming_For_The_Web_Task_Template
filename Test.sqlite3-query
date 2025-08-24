@@ -1,5 +1,6 @@
 -- database: ./data_source.db
 
+-- INSTERING INFO
 INSERT INTO UserInfomation(
     UserID,
     Username,
@@ -19,6 +20,36 @@ VALUES (
     ""
 );
 
+INSERT INTO Posts (
+    PostID,
+    UserID,
+    Username,
+    ProfilePicture,
+    PostTitle,
+    PostCategory,
+    PostGame,
+    PostTags,
+    PostLikes,
+    PostComments,
+    PostContent,
+    PostDate
+)
+VALUES (
+    1,
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
+);
+
+-- CREATING TABLES
 CREATE TABLE IF NOT EXISTS UserInfomation (
     UserID INTEGER PRIMARY KEY AUTOINCREMENT,
     Username TEXT NOT NULL,
@@ -44,6 +75,7 @@ CREATE TABLE IF NOT EXISTS Posts (
     PostDate TEXT NOT NULL
 );
 
+-- QUERYING INFO
 SELECT * 
 FROM UserInfomation;
 
