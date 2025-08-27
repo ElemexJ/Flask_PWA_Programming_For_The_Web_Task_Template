@@ -11,7 +11,8 @@ app = Flask(__name__)
 @app.route("/index.html", methods=["GET"])
 @app.route("/", methods=["POST", "GET"])
 def index():
-    return render_template("/index.html")
+    data = dbHandler.listExtension()
+    return render_template("/index.html", content=data)
 
 
 if __name__ == "__main__":
