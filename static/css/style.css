@@ -7,7 +7,10 @@
 }
 
 body {
-  background: #fdfdfd;
+  background-image: url(/static/images/HomeBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
 }
@@ -22,6 +25,7 @@ nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: darkorchid;
 }
 
 nav img {
@@ -40,15 +44,15 @@ nav li {
 nav ul li a {
   text-decoration-line: none;
   text-transform: uppercase;
-  color: #393b45;
+  color: white;
 }
 
 nav ul li a:hover {
-  color: #14e6dd;
+  color: yellow;
 }
 
 nav h1 {
-  color: #106d69;
+  color: white;
   margin-bottom: 0.5rem;
 }
 
