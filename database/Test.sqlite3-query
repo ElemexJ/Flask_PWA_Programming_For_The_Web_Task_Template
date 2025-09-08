@@ -57,6 +57,15 @@ INSERT INTO GamePages (
     Logo,
     Catagories,
     Hyperlink
+)
+VALUES (
+    1,
+    "",
+    "",
+    "",
+    "",
+    "",
+    ""
 );
 
 -- CREATING TABLES

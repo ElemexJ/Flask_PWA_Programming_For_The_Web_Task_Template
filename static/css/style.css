@@ -6,6 +6,19 @@
   box-sizing: border-box;
 }
 
+h1 {
+  text-align: left;
+  margin-top: 30px;
+  color: white;
+  size: 10000px;
+}
+
+p {
+  text-align: left;
+  color: white;
+  margin-left: 20px;
+}
+
 body {
   background-image: url(/static/images/HomeBackground.jpg);
   background-repeat: no-repeat;
@@ -13,6 +26,12 @@ body {
   background-position: center center;
   font-family: "Nunito", sans-serif;
   font-size: 1rem;
+}
+
+h3 {
+  word-break: break-all;
+  text-overflow: ellipsis; /* Displays ellipsis for truncated text */
+  max-width: 400px; /* Sets a fixed width for the container */
 }
 
 main {
@@ -54,6 +73,8 @@ nav ul li a:hover {
 nav h1 {
   color: white;
   margin-bottom: 0.5rem;
+  margin-top: 0px;
+  margin-left: 0px;
 }
 
 .container {
