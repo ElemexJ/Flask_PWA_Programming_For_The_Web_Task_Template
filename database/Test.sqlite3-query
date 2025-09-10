@@ -52,20 +52,18 @@ VALUES (
 INSERT INTO GamePages (
     PageID,
     Game,
-    Description,
+    Hyperlink,
+    About,
     Image,
-    Logo,
-    Catagories,
-    Hyperlink
+    Logo
 )
 VALUES (
-    1,
-    "",
-    "",
-    "",
-    "",
-    "",
-    ""
+    6,
+    "Hammer game",
+    "Hammer.html",
+    "A test of strength and precision, striking a mallet to get a high score.",
+    "Hammer.jpg",
+    "HammerLogo.jpg"
 );
 
 -- CREATING TABLES
