@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" href="static\css\style.css" />
 </head>
-<body>
+<body id="games">
   <nav>
     <img src="../static/images/logo.png" alt="Site logo." />
     <h1>Arcade Atlus</h1>
@@ -12,8 +12,20 @@
       <li><a href="games.html">Games</a></li>
     </ul>
   </nav>
-  <h1 id="Game-page-title">Catagories</h1>
-  <h1 id="Game-page-title">All games</h1>
+  <h1 id="Game-page-title">Games</h1>
+  <form action="/games.html" method="POST">
+    <label for="search_term">Search:</label>
+    <input type="text" id="search_term" name="filter_term" />
+    <label for="category">Category:</label>
+    <select id="category" name="category">
+      <option value="">All</option>
+      <option value="Rhythm">Rhythm</option>
+      <option value="Ball">Ball</option>
+      <option value="Strength">Strength</option>
+      <option value="Driving">Driving</option>
+    </select>
+    <button type="submit">Apply Filter</button>
+  </form>
   {% block content %}
   <div id="game-rows" class="container">
     {% for row in content %}

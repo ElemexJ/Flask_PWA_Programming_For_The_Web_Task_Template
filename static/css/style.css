@@ -22,7 +22,7 @@ p {
 }
 
 body {
-  background-image: url(/static/images/HomeBackground.jpg);
+  background-image: url(/static/images//Backgrounds/HomeBackground.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -191,4 +191,23 @@ nav h1 {
   margin: 0px;
   margin-top: 20px;
   text-align: center;
+  background-color: magenta;
+}
+
+#games {
+  background-image: url(/static/images/Backgrounds/GamesBackground.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+
+label {
+  color: white;
+}
+
+form {
+  text-align: center;
+  background-color: #222;
 }
