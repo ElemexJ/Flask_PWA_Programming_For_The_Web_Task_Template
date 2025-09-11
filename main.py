@@ -37,14 +37,12 @@ def games():
 
 
 @app.route("/add.html", methods=["GET"])
-@app.route("/", methods=["POST", "GET"])
 def add():
     data = dbHandler.listExtension()
     return render_template("/partials/add.html", content=data)
 
 
 @app.route("/signup.html", methods=["GET"])
-@app.route("/", methods=["POST", "GET"])
 def signup():
     data = dbHandler.listExtension()
     return render_template("/partials/signup.html", content=data)
