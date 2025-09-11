@@ -10,9 +10,11 @@ h1 {
   text-align: left;
   margin-top: 30px;
   color: white;
+  font-size: 45px;
   size: 10000px;
   position: absolute;
   margin-bottom: 100px;
+  font-family: Lucida Console;
 }
 
 p {
@@ -78,7 +80,8 @@ nav h1 {
   color: white;
   margin-bottom: 0.5rem;
   margin-top: 10px;
-  margin-left: 250px;
+  margin-left: 200px;
+  font-size: 24px;
 }
 
 .container {
@@ -210,4 +213,82 @@ label {
 form {
   text-align: center;
   background-color: #222;
+}
+
+.square {
+  width: 500px;
+  height: 500px;
+  background-color: white;
+  opacity: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  font-family: Lucida Console;
+}
+
+h2 {
+  font-size: 40px;
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 170px;
+}
+
+#login {
+  margin-top: 290px;
+  width: 175px;
+  height: 30px;
+}
+#Login-Page-Username {
+  position: absolute;
+  margin-top: 65px;
+  margin-left: 75px;
+  font-size: 25px;
+}
+#Login-Page-Password {
+  position: absolute;
+  margin-top: 175px;
+  margin-left: 75px;
+  font-size: 25px;
+}
+#username {
+  position: absolute;
+  margin-top: 105px;
+  margin-left: -150px;
+  background-color: #fff;
+  width: 300px;
+  height: 30px;
+}
+
+#password {
+  position: absolute;
+  margin-top: 215px;
+  margin-left: -150px;
+  background-color: #fff;
+  width: 300px;
+  height: 30px;
+}
+
+#login-logo {
+  width: 128px;
+  height: 128px;
+}
+
+#forgorpasswordlol {
+  position: absolute;
+  margin-top: 260px;
+  color: darkturquoise;
+  font-size: smaller;
+  margin-left: 75px;
+}
+#accountgot {
+  position: absolute;
+  margin-top: 10px;
+  color: black;
+  font-size: smaller;
+  margin-left: 65px;
+}
+#login-page {
+  background-image: url(/static/images//Backgrounds/LoginBackground.jpg);
 }

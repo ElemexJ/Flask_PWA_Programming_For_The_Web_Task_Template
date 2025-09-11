@@ -1,7 +1,7 @@
 <head>
   <link rel="stylesheet" href="static\css\style.css" />
 </head>
-<body>
+<body id="Login-Page">
   <nav>
     <img src="../static/images/logo.png" alt="Site logo." />
     <h1>Arcade Atlus</h1>
@@ -12,6 +12,27 @@
       <li><a href="games.html">Games</a></li>
     </ul>
   </nav>
-
-  <button id="login">Sign in</button>
+  <div class="square">
+    <img
+      id="Login-logo"
+      src="/static/images/transparentlogo.png"
+      alt="Site logo."
+    />
+    <div id="FormattingSucks">
+      <h2>Log in</h2>
+      <h3 id="Login-Page-Username">Username</h3>
+      <input type="text" id="Username" />
+      <h3 id="Login-Page-Password">Password</h3>
+      <input type="text" id="Password" />
+    </div>
+    <p id="Forgorpasswordlol">
+      <a href="reset.html"
+        ><u>Forgot password? Reset here (DOES NOT WORK)</u></a
+      >
+    </p>
+    <a href="http://127.0.0.1:5000/#"><button id="login">Sign in</button></a>
+    <p id="Accountgot">
+      Don't have an account? <a href="signup.htm;"> click here</a> to Sign up!
+    </p>
+  </div>
 </body>
