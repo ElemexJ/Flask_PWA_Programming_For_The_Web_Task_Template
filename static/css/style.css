@@ -292,3 +292,16 @@ h2 {
 #login-page {
   background-image: url(/static/images//Backgrounds/LoginBackground.jpg);
 }
+
+.square2 {
+  width: 1000px;
+  height: 1000px;
+  background-color: white;
+  opacity: 80%;
+  text-align: center;
+  margin: auto;
+  margin-top: 50px;
+  border-top-left-radius: 20%;
+  border-top-right-radius: 20%;
+  font-family: Lucida Console;
+}
