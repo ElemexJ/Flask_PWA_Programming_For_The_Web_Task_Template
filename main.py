@@ -30,7 +30,7 @@ def about():
 @app.route("/games.html", methods=["GET"])
 @app.route("/", methods=["POST", "GET"])
 def games():
-    data = dbHandler.listExtension()
+    data = dbHandler.listGames()
     return render_template("/partials/games.html", content=data)
 
 

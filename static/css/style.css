@@ -175,3 +175,20 @@ nav h1 {
   height: 75px;
   width: 150px;
 }
+
+#game-rows {
+  margin-top: 10px;
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  grid-gap: 3rem;
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  padding: 1rem 0;
+}
+
+#game-page-title {
+  position: relative;
+  margin: 0px;
+  margin-top: 20px;
+  text-align: center;
+}
