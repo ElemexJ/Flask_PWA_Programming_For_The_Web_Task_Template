@@ -243,30 +243,30 @@ h2 {
 #Login-Page-Username {
   position: absolute;
   margin-top: 65px;
-  margin-left: 75px;
+  margin-left: 45px;
   font-size: 25px;
 }
 #Login-Page-Password {
   position: absolute;
   margin-top: 175px;
-  margin-left: 75px;
+  margin-left: 45px;
   font-size: 25px;
 }
 #username {
   position: absolute;
   margin-top: 105px;
-  margin-left: -150px;
+  margin-left: -210px;
   background-color: #fff;
-  width: 300px;
+  width: 430px;
   height: 30px;
 }
 
 #password {
   position: absolute;
   margin-top: 215px;
-  margin-left: -150px;
+  margin-left: -210px;
   background-color: #fff;
-  width: 300px;
+  width: 430px;
   height: 30px;
 }
 
@@ -280,7 +280,7 @@ h2 {
   margin-top: 260px;
   color: darkturquoise;
   font-size: smaller;
-  margin-left: 75px;
+  margin-left: 25px;
 }
 #accountgot {
   position: absolute;
@@ -294,7 +294,8 @@ h2 {
 }
 
 .square2 {
-  width: 1000px;
+  position: relative;
+  width: 500px;
   height: 1000px;
   background-color: white;
   opacity: 80%;
@@ -309,4 +310,104 @@ h2 {
 #lol {
   position: relative;
   margin-bottom: auto;
+  margin-left: 25px;
+  text-align: center;
+}
+
+#signup-title {
+  text-align: center;
+  margin-left: 160px;
+}
+
+#login-page-about {
+  position: absolute;
+  margin-top: 285px;
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+#about {
+  position: absolute;
+  margin-top: 325px;
+  margin-left: -210px;
+  background-color: #fff;
+  width: 430px;
+  height: 50px;
+}
+
+#login-page-email {
+  position: absolute;
+  margin-top: 405px;
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+#email {
+  position: absolute;
+  margin-top: 445px;
+  margin-left: -210px;
+  background-color: #fff;
+  width: 430px;
+  height: 30px;
+}
+#login-page-pfp {
+  position: absolute;
+  margin-top: 505px;
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+#pfp {
+  position: absolute;
+  margin-top: 545px;
+  margin-left: -210px;
+  background-color: #fff;
+  width: 350px;
+  height: 50px;
+  font-size: large;
+  text-overflow: ellipsis;
+}
+#login-page-age {
+  position: absolute;
+  margin-top: 605px;
+  margin-left: 45px;
+  font-size: 25px;
+}
+
+#age {
+  position: absolute;
+  margin-top: 645px;
+  margin-left: -210px;
+  background-color: #fff;
+  width: 430px;
+  height: 30px;
+}
+#join-now {
+  margin-top: 690px;
+  width: 175px;
+  height: 30px;
+  font-family: "Courier New", Courier, monospace;
+  opacity: 100%;
+  font-weight: bold;
+}
+#accountnotgot {
+  position: absolute;
+  margin-top: 20px;
+  color: black;
+  font-size: smaller;
+  margin-left: 65px;
+}
+#about-body {
+  background-image: url(/static/images/Backgrounds/AboutBackground.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: "Nunito", sans-serif;
+  font-size: 1rem;
+}
+#who {
+  margin-top: 15px;
+  background-color: #37004d;
+  width: 1000000px;
+  height: 50px;
 }
